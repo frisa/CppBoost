@@ -44,15 +44,24 @@ public:
 class U
 {
     scoped_ptr<A> pa;
+    shared_ptr<A> psa;
     
 public:
-    U(): pa(new A())
+    U(): pa(new A()), psa(new A())
     {
         std::cout << __FUNCTION__ << std::endl;
     }
     ~U()
     {
         std::cout << __FUNCTION__ << std::endl;
+    }
+    U(const U* other)
+    {
+        psa = other->psa;
+    }
+    U operator=(const U* other)
+    {
+        psa = other->psa;
     }
 };
 
