@@ -17,6 +17,9 @@
       <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
       <Extensions>ts</Extensions>
     </Filter>
+    <Filter Include="QML">
+      <UniqueIdentifier>{c381482a-a516-4d83-9db0-0228dd041194}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -38,8 +41,8 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="assets\models.qml">
-      <Filter>Source Files</Filter>
+    <None Include="qmltypes\MyRectangle.qml">
+      <Filter>QML</Filter>
     </None>
   </ItemGroup>
 </Project>

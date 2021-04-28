@@ -3,7 +3,7 @@ import QtQuick.Window 2.12
 import QtQuick.Controls 2.15
 import QtQuick.Layouts 1.15
 
-import "qrc:/models/assets/models.qml"
+import "qrc:/qml/qmlFiles"
 
 ApplicationWindow {
     visible: true
@@ -43,13 +43,9 @@ ApplicationWindow {
     }
     Component {
         id: systemView
-
-        ListView{
+        MyRectangle{
             anchors.fill: parent
-            model: testModel
-            delegate: testDelegate
         }
     }
-
 }
 

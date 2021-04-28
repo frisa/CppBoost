@@ -7,7 +7,7 @@
         <file>assets/open.png</file>
         <file>assets/save.png</file>
     </qresource>
-    <qresource prefix="/models">
-        <file>assets/models.qml</file>
+    <qresource prefix="/qml">
+        <file>qmlFiles/MyRectangle.qml</file>
     </qresource>
 </RCC>
