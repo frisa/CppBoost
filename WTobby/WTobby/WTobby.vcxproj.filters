@@ -44,5 +44,11 @@
     <None Include="qmltypes\MyRectangle.qml">
       <Filter>QML</Filter>
     </None>
+    <None Include="qmlFiles\MyModel.qml">
+      <Filter>QML</Filter>
+    </None>
+    <None Include="qmlFiles\MyDelegate.qml">
+      <Filter>QML</Filter>
+    </None>
   </ItemGroup>
 </Project>

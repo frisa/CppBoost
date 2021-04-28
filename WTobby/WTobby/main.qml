@@ -41,10 +41,26 @@ ApplicationWindow {
         anchors.fill: parent
         initialItem: systemView
     }
+    ListModel {
+            id: nameModel
+            ListElement { name: "Alice" }
+            ListElement { name: "Bob" }
+            ListElement { name: "Jane" }
+            ListElement { name: "Harry" }
+            ListElement { name: "Wendy" }
+    }
     Component {
         id: systemView
+        /*
         MyRectangle{
             anchors.fill: parent
+        }
+        */
+
+        ListView{
+            anchors.fill: parent
+            model: MyModel{}
+            delegate:  MyDelegate{}
         }
     }
 }

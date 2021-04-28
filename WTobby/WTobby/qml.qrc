@@ -9,5 +9,7 @@
     </qresource>
     <qresource prefix="/qml">
         <file>qmlFiles/MyRectangle.qml</file>
+        <file>qmlFiles/MyModel.qml</file>
+        <file>qmlFiles/MyDelegate.qml</file>
     </qresource>
 </RCC>
