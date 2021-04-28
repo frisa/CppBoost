@@ -28,6 +28,18 @@
     <None Include="main.qml">
       <Filter>Source Files</Filter>
     </None>
-
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\models.qml">
+      <Filter>Source Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

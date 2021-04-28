@@ -2,4 +2,12 @@
     <qresource prefix="/">
         <file>main.qml</file>
     </qresource>
+    <qresource prefix="/icons">
+        <file>assets/new.png</file>
+        <file>assets/open.png</file>
+        <file>assets/save.png</file>
+    </qresource>
+    <qresource prefix="/models">
+        <file>assets/models.qml</file>
+    </qresource>
 </RCC>
