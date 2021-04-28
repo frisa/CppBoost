@@ -1,6 +1,7 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
+#include <QStringList>
 #include "Model.h"
 
 int main(int argc, char *argv[])
@@ -13,7 +14,13 @@ int main(int argc, char *argv[])
 
     QQmlApplicationEngine engine;
     Model* model = new Model();
-    //engine.rootContext()->setContextProperty("systemModel", model);
+    QStringList dataList = {
+    "Item 1",
+    "Item 2",
+    "Item 3",
+    "Item 4"
+    };
+    engine.rootContext()->setContextProperty("systemModel", dataList);
     engine.load(QUrl(QStringLiteral("qrc:/main.qml")));
     if (engine.rootObjects().isEmpty())
         return -1;

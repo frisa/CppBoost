@@ -59,8 +59,13 @@ ApplicationWindow {
 
         ListView{
             anchors.fill: parent
-            model: MyModel{}
-            delegate:  MyDelegate{}
+            model: systemModel
+            delegate: Rectangle {
+                required property string modelData
+                height: 25
+                width: 100
+                Text { text: parent.modelData }
+            }
         }
     }
 }

@@ -8,8 +8,7 @@
         <file>assets/save.png</file>
     </qresource>
     <qresource prefix="/qml">
-        <file>qmlFiles/MyRectangle.qml</file>
-        <file>qmlFiles/MyModel.qml</file>
-        <file>qmlFiles/MyDelegate.qml</file>
+        <file>qmlFiles/TestDelegate.qml</file>
+        <file>qmlFiles/TestModel.qml</file>
     </qresource>
 </RCC>

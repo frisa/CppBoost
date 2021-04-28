@@ -41,13 +41,10 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="qmltypes\MyRectangle.qml">
+    <None Include="qmlFiles\TestModel.qml">
       <Filter>QML</Filter>
     </None>
-    <None Include="qmlFiles\MyModel.qml">
-      <Filter>QML</Filter>
-    </None>
-    <None Include="qmlFiles\MyDelegate.qml">
+    <None Include="qmlFiles\TestDelegate.qml">
       <Filter>QML</Filter>
     </None>
   </ItemGroup>
