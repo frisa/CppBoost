@@ -2,10 +2,14 @@
 
 QHash<int, QByteArray> LogExModel::roleNames() const
 {
-    QHash<int, QByteArray> roles;
-    roles[TypeRole] = "type";
-    roles[MessageRole] = "message";
-    return roles;
+    static QHash<int, QByteArray> *roles;
+    if (!roles)
+    {
+        roles = new QHash<int, QByteArray>();
+        (*roles)[TypeRole] = "type";
+        (*roles)[MessageRole] = "message";
+    }
+    return *roles;
 }
 
 LogExModel::LogExModel(QObject* parent): QAbstractListModel(parent)

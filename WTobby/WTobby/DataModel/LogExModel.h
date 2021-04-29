@@ -31,13 +31,12 @@ class LogExModel :
     Q_OBJECT
 private:
     QList<LogExDataObject> _data;
-public:
-    explicit LogExModel(QObject* parent = nullptr);
     enum LogRoles {
         TypeRole = Qt::UserRole + 1,
         MessageRole
     };
-
+public:
+    explicit LogExModel(QObject* parent = nullptr);
     void addMessage(QString type, QString message);
 
     // Inherited via QAbstractListModel
