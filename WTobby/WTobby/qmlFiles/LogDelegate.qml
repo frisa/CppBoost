@@ -3,7 +3,8 @@ import QtQml 2.15
 
 Rectangle {
         required property string mtype
+        required property string message
         height: 25
-        width: 100
-        Text { text: parent.mtype }
+        width: 200
+        Text { text: parent.mtype + " : " + parent.message}
     }
