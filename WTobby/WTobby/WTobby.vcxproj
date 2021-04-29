@@ -85,8 +85,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DataModel\LogExModel.cpp" />
     <ClCompile Include="main.cpp" />
     <None Include="qmlFiles\LogDelegate.qml" />
+    <None Include="qmlFiles\LogExDelegate.qml" />
     <None Include="qmlFiles\TestModel.qml" />
     <None Include="qmlFiles\TestDelegate.qml" />
     <QtRcc Include="qml.qrc" />
@@ -94,6 +96,9 @@
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="DataModel\LogDataObject.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="DataModel\LogExModel.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">

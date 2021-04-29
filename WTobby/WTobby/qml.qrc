@@ -10,6 +10,6 @@
     <qresource prefix="/qml">
         <file>qmlFiles/TestDelegate.qml</file>
         <file>qmlFiles/TestModel.qml</file>
-        <file>qmlFiles/LogDelegate.qml</file>
+        <file>qmlFiles/LogExDelegate.qml</file>
     </qresource>
 </RCC>

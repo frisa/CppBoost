@@ -3,7 +3,10 @@
 #include <QQmlContext>
 #include <QStringList>
 #include <QList>
+#include <QVariant>
+
 #include "DataModel/LogDataObject.h"
+#include "DataModel/LogExModel.h"
 
 int main(int argc, char *argv[])
 {
@@ -15,11 +18,11 @@ int main(int argc, char *argv[])
 
     QQmlApplicationEngine engine;
     /* Data Models */
-    QList<QObject*> dataList = {
-        new LogDataObject("atype","amessage"),
-        new LogDataObject("btype","bmessage"),
-        new LogDataObject("ctype","cmessage") };
-    engine.rootContext()->setContextProperty("logModel", QVariant::fromValue(dataList));
+    LogExModel* logModel = new LogExModel();
+    logModel->addMessage("A", "A1");
+    logModel->addMessage("B", "B1");
+    logModel->addMessage("C", "C1");
+    engine.rootContext()->setContextProperty("logModel", logModel);
     engine.load(QUrl(QStringLiteral("qrc:/main.qml")));
     if (engine.rootObjects().isEmpty())
         return -1;
