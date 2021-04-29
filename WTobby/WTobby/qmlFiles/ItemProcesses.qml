@@ -7,5 +7,7 @@ Item{
         anchors.fill: parent
         model: logModel
         delegate: LogExDelegate{}
+        highlight: Rectangle { color: "lightsteelblue"; radius: 5 }
+        focus: true
     }
 }

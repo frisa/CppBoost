@@ -1,7 +1,10 @@
 ﻿import QtQuick 2.3
 
-Text {
-        required property string type
-        required property string message
-        text: "Log: " + type + ", " + message
-      }
+Item {
+    width: ListView.view.width;
+    height: 40
+    Column {
+        Text { text: '<b>Type:</b> ' + type }
+        Text { text: '<b>Message:</b> ' + message }
+        }
+   }
