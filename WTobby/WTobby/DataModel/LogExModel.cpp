@@ -26,12 +26,16 @@ Q_INVOKABLE QVariant LogExModel::data(const QModelIndex& index, int role) const
 {
     if (!index.isValid())
         return QVariant();
-    if (role == Qt::DisplayRole)
+    if (role == LogRoles::MessageRole)
     {
-        if (index.column() == 0)
-            return _data[index.row()].type();
-        if (index.column() == 1)
-            return _data[index.row()].message();
+        return _data[index.row()].message();
     }
-    return QVariant();
+    else if (role == LogRoles::TypeRole)
+    {
+        return _data[index.row()].type();
+    }
+    else
+    {
+        return QVariant();
+    }
 }
