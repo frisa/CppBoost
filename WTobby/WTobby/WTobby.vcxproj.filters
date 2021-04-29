@@ -51,6 +51,9 @@
     <None Include="qmlFiles\LogExDelegate.qml">
       <Filter>QML</Filter>
     </None>
+    <None Include="qmlFiles\TabPanelProcesses.qml">
+      <Filter>Model</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="DataModel\LogDataObject.h">

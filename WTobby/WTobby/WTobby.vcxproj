@@ -89,6 +89,7 @@
     <ClCompile Include="main.cpp" />
     <None Include="qmlFiles\LogDelegate.qml" />
     <None Include="qmlFiles\LogExDelegate.qml" />
+    <None Include="qmlFiles\TabPanelProcesses.qml" />
     <None Include="qmlFiles\TestModel.qml" />
     <None Include="qmlFiles\TestDelegate.qml" />
     <QtRcc Include="qml.qrc" />

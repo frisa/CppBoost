@@ -29,29 +29,40 @@ ApplicationWindow {
                 }
             }
     }
+    StackLayout{
+        anchors.fill: parent
+        currentIndex: bar.currentIndex
+        Item{
+            Rectangle{
+                anchors.fill: parent
+                color: 'red'
+            }
+        }
+        Item{
+            Rectangle{
+                anchors.fill: parent
+                color: 'green'
+            }
+        }
+        Item{
+            Rectangle{
+                anchors.fill: parent
+                color: 'blue'
+            }
+        }
+    }
     footer: TabBar {
+        id: bar
         width: parent.width
         TabButton {
-            text: qsTr("System")
-            width: implicitWidth
+            text: qsTr("Processes")
         }
-    }
-    StackView {
-        id: mainStackView
-        anchors.fill: parent
-        initialItem: systemView
-    }
-    Component {
-        id: systemView
-        ListView{
-            anchors.fill: parent
-            model: logModel
-            delegate: LogExDelegate{}
+        TabButton {
+            text: qsTr("Green")
         }
-    }
-    Button{
-        text: "Increment"
-        onClicked: logModel.increment()
+        TabButton {
+            text: qsTr("Blue")
+        }
     }
 }
 
