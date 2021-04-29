@@ -87,6 +87,8 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Model.cpp" />
+    <None Include="qmlFiles\LogDelegate.qml" />
+    <None Include="qmlFiles\LogModel.qml" />
     <None Include="qmlFiles\TestModel.qml" />
     <None Include="qmlFiles\TestDelegate.qml" />
     <QtRcc Include="qml.qrc" />

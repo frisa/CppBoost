@@ -51,21 +51,10 @@ ApplicationWindow {
     }
     Component {
         id: systemView
-        /*
-        MyRectangle{
-            anchors.fill: parent
-        }
-        */
-
         ListView{
             anchors.fill: parent
             model: systemModel
-            delegate: Rectangle {
-                required property string modelData
-                height: 25
-                width: 100
-                Text { text: parent.modelData }
-            }
+            delegate: LogDelegate{}
         }
     }
 }

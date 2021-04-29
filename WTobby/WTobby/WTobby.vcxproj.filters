@@ -47,5 +47,11 @@
     <None Include="qmlFiles\TestDelegate.qml">
       <Filter>QML</Filter>
     </None>
+    <None Include="qmlFiles\LogModel.qml">
+      <Filter>QML</Filter>
+    </None>
+    <None Include="qmlFiles\LogDelegate.qml">
+      <Filter>QML</Filter>
+    </None>
   </ItemGroup>
 </Project>
