@@ -1,0 +1,150 @@
+﻿'WTobby.exe' (Win32): Loaded 'C:\Repositories\CppBoost\WTobby\x64\Debug\WTobby.exe'. Symbols loaded.
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\ntdll.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\kernel32.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\KernelBase.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\shell32.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\msvcp_win.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\ucrtbase.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\user32.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\win32u.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\gdi32.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\gdi32full.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Qt\5.15.2\msvc2019_64\bin\Qt5Cored.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Qt\5.15.2\msvc2019_64\bin\Qt5Qmld.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\vcruntime140d.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Qt\5.15.2\msvc2019_64\bin\Qt5Guid.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\vcruntime140_1d.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\ws2_32.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\ole32.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\rpcrt4.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\rpcrt4.dll'. 
+'WTobby.exe' (Win32): Unloaded 'C:\Windows\System32\rpcrt4.dll'
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\ucrtbased.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\advapi32.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\combase.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\msvcrt.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\sechost.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\mpr.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\userenv.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\version.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\netapi32.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\d3d11.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\dxgi.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\msvcp140d.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\winmm.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\msvcp140_1d.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\srvcli.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Qt\5.15.2\msvc2019_64\bin\Qt5Networkd.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\netutils.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\crypt32.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\dnsapi.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\IPHLPAPI.DLL'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\cryptbase.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\imm32.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\nsi.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\SHCore.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Qt\5.15.2\msvc2019_64\plugins\platforms\qwindowsd.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\oleaut32.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\dwmapi.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\wtsapi32.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\kernel.appcore.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\bcryptprimitives.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\uxtheme.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\windows.storage.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\wldp.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\shlwapi.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\profapi.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\powrprof.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\umpdc.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\cfgmgr32.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\clbcatq.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\propsys.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Qt\5.15.2\msvc2019_64\qml\QtQuick.2\qtquick2plugind.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Qt\5.15.2\msvc2019_64\bin\Qt5QmlWorkerScriptd.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Qt\5.15.2\msvc2019_64\bin\Qt5Quickd.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Qt\5.15.2\msvc2019_64\bin\Qt5QmlModelsd.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Qt\5.15.2\msvc2019_64\qml\QtQuick\Window.2\windowplugind.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Qt\5.15.2\msvc2019_64\qml\QtQuick\Controls.2\qtquickcontrols2plugind.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Qt\5.15.2\msvc2019_64\bin\Qt5QuickControls2d.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Qt\5.15.2\msvc2019_64\bin\Qt5QuickTemplates2d.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Qt\5.15.2\msvc2019_64\qml\QtQuick\Layouts\qquicklayoutsplugind.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Qt\5.15.2\msvc2019_64\qml\QtQuick\Templates.2\qtquicktemplates2plugind.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\d3d9.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\nvcvi.inf_amd64_64154700d715d851\nvldumdx.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\cryptnet.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\wintrust.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\msasn1.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\imagehlp.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\cryptsp.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\rsaenh.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\bcrypt.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\nvcvi.inf_amd64_64154700d715d851\nvd3dumx.dll'. 
+'WTobby.exe' (Win32): Unloaded 'C:\Windows\System32\DriverStore\FileRepository\nvcvi.inf_amd64_64154700d715d851\nvldumdx.dll'
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\opengl32.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\glu32.dll'. 
+'WTobby.exe' (Win32): Unloaded 'C:\Windows\System32\DriverStore\FileRepository\nvcvi.inf_amd64_64154700d715d851\nvd3dumx.dll'
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\msctf.dll'. 
+The thread 0x3700 has exited with code 0 (0x0).
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\AppXDeploymentClient.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\nvcvi.inf_amd64_64154700d715d851\nvoglv64.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\setupapi.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\devobj.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\ntmarta.dll'. 
+The thread 0x4018 has exited with code 0 (0x0).
+The thread 0x2978 has exited with code 0 (0x0).
+The thread 0x50d4 has exited with code 0 (0x0).
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\DXCore.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\nvspcap64.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\winsta.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\DWrite.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Qt\5.15.2\msvc2019_64\plugins\imageformats\qgifd.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Qt\5.15.2\msvc2019_64\plugins\imageformats\qicnsd.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Qt\5.15.2\msvc2019_64\plugins\imageformats\qicod.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Qt\5.15.2\msvc2019_64\plugins\imageformats\qjpegd.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Qt\5.15.2\msvc2019_64\plugins\imageformats\qsvgd.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Qt\5.15.2\msvc2019_64\bin\Qt5Svgd.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Qt\5.15.2\msvc2019_64\bin\Qt5Widgetsd.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Qt\5.15.2\msvc2019_64\plugins\imageformats\qtgad.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Qt\5.15.2\msvc2019_64\plugins\imageformats\qtiffd.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Qt\5.15.2\msvc2019_64\plugins\imageformats\qwbmpd.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Qt\5.15.2\msvc2019_64\plugins\imageformats\qwebpd.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\nvcvi.inf_amd64_64154700d715d851\nvldumdx.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\nvcvi.inf_amd64_64154700d715d851\nvd3dumx.dll'. 
+'WTobby.exe' (Win32): Unloaded 'C:\Windows\System32\DriverStore\FileRepository\nvcvi.inf_amd64_64154700d715d851\nvldumdx.dll'
+'WTobby.exe' (Win32): Unloaded 'C:\Windows\System32\DriverStore\FileRepository\nvcvi.inf_amd64_64154700d715d851\nvd3dumx.dll'
+The thread 0x32c8 has exited with code 0 (0x0).
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\DataExchange.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\dcomp.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\twinapi.appcore.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\TextInputFramework.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\CoreMessaging.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\CoreUIComponents.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\WinTypes.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\WinTypes.dll'. 
+'WTobby.exe' (Win32): Loaded 'C:\Windows\System32\WinTypes.dll'. 
+'WTobby.exe' (Win32): Unloaded 'C:\Windows\System32\WinTypes.dll'
+'WTobby.exe' (Win32): Unloaded 'C:\Windows\System32\WinTypes.dll'
+The thread 0x2aa0 has exited with code 0 (0x0).
+The thread 0xc58 has exited with code 0 (0x0).
+The thread 0x2f0c has exited with code 0 (0x0).
+The thread 0x45cc has exited with code 0 (0x0).
+The thread 0x26a0 has exited with code 0 (0x0).
+'WTobby.exe' (Win32): Unloaded 'C:\Windows\System32\AppXDeploymentClient.dll'
+'WTobby.exe' (Win32): Unloaded 'C:\Windows\System32\dcomp.dll'
+'WTobby.exe' (Win32): Unloaded 'C:\Windows\System32\twinapi.appcore.dll'
+'WTobby.exe' (Win32): Unloaded 'C:\Windows\System32\DataExchange.dll'
+The thread 0x3730 has exited with code 0 (0x0).
+The thread 0x4b1c has exited with code 0 (0x0).
+The thread 0x58e0 has exited with code 0 (0x0).
+The thread 0x3510 has exited with code 0 (0x0).
+The thread 0x5cbc has exited with code 0 (0x0).
+The thread 0x4114 has exited with code 0 (0x0).
+The thread 0x4a10 has exited with code 0 (0x0).
+The thread 0x41d0 has exited with code 0 (0x0).
+The thread 0x1df0 has exited with code 0 (0x0).
+The thread 0x52dc has exited with code 0 (0x0).
+The thread 0x5a40 has exited with code 0 (0x0).
+The thread 0x4c78 has exited with code 0 (0x0).
+The thread 0x26e4 has exited with code 0 (0x0).
+The thread 0x28cc has exited with code 0 (0x0).
+The program '[0x2FCC] WTobby.exe' has exited with code 0 (0x0).

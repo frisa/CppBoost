@@ -18,11 +18,14 @@ LogExModel::LogExModel(QObject* parent): QAbstractListModel(parent)
 
 void LogExModel::addMessage(QString type, QString message)
 {
-    _data.append(LogExDataObject(type, message));
+    beginInsertRows(QModelIndex(), rowCount(), rowCount());
+    _data << LogExDataObject(type, message);
+    endInsertRows();
 }
 
-Q_INVOKABLE int LogExModel::rowCount(const QModelIndex&) const
+Q_INVOKABLE int LogExModel::rowCount(const QModelIndex& parent) const
 {
+    Q_UNUSED(parent);
 	return _data.size();
 }
 
