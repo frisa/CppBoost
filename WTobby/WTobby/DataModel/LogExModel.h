@@ -38,6 +38,7 @@ private:
 public:
     explicit LogExModel(QObject* parent = nullptr);
     void addMessage(QString type, QString message);
+    Q_INVOKABLE void increment();
 
     // Inherited via QAbstractListModel
     QHash<int, QByteArray> LogExModel::roleNames() const;

@@ -49,5 +49,9 @@ ApplicationWindow {
             delegate: LogExDelegate{}
         }
     }
+    Button{
+        text: "Increment"
+        onClicked: logModel.increment()
+    }
 }
 

@@ -23,6 +23,14 @@ void LogExModel::addMessage(QString type, QString message)
     endInsertRows();
 }
 
+Q_INVOKABLE void LogExModel::increment()
+{
+    static int inc = 0;
+    beginInsertRows(QModelIndex(), rowCount(), rowCount());
+    _data << LogExDataObject("I", QStringLiteral("i: %1").arg(++inc));
+    endInsertRows();
+}
+
 Q_INVOKABLE int LogExModel::rowCount(const QModelIndex& parent) const
 {
     Q_UNUSED(parent);
