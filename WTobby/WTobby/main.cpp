@@ -27,10 +27,5 @@ int main(int argc, char *argv[])
     engine.load(QUrl(QStringLiteral("qrc:/main.qml")));
     if (engine.rootObjects().isEmpty())
         return -1;
-    for (int i = 0; i < 10; i++)
-    {
-        logModel->addMessage("C", QStringLiteral("i: %1").arg(i));
-        QThread::msleep(100);
-    }
     return app.exec();
 }

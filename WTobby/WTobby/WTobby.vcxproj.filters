@@ -51,8 +51,8 @@
     <None Include="qmlFiles\LogExDelegate.qml">
       <Filter>QML</Filter>
     </None>
-    <None Include="qmlFiles\TabPanelProcesses.qml">
-      <Filter>Model</Filter>
+    <None Include="qmlFiles\ItemProcesses.qml">
+      <Filter>QML</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>

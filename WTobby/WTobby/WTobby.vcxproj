@@ -87,9 +87,9 @@
   <ItemGroup>
     <ClCompile Include="DataModel\LogExModel.cpp" />
     <ClCompile Include="main.cpp" />
+    <None Include="qmlFiles\ItemProcesses.qml" />
     <None Include="qmlFiles\LogDelegate.qml" />
     <None Include="qmlFiles\LogExDelegate.qml" />
-    <None Include="qmlFiles\TabPanelProcesses.qml" />
     <None Include="qmlFiles\TestModel.qml" />
     <None Include="qmlFiles\TestDelegate.qml" />
     <QtRcc Include="qml.qrc" />

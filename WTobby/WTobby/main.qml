@@ -32,12 +32,7 @@ ApplicationWindow {
     StackLayout{
         anchors.fill: parent
         currentIndex: bar.currentIndex
-        Item{
-            Rectangle{
-                anchors.fill: parent
-                color: 'red'
-            }
-        }
+        ItemProcesses{}
         Item{
             Rectangle{
                 anchors.fill: parent
