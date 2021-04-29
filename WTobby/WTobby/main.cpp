@@ -2,7 +2,8 @@
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
 #include <QStringList>
-#include "Model.h"
+#include <QList>
+#include "DataModel/LogDataObject.h"
 
 int main(int argc, char *argv[])
 {
@@ -13,9 +14,12 @@ int main(int argc, char *argv[])
     QGuiApplication app(argc, argv);
 
     QQmlApplicationEngine engine;
-    Model* model = new Model();
-    QStringList dataList = {"A1", "B2", "C3", "D4"};
-    engine.rootContext()->setContextProperty("systemModel", dataList);
+    /* Data Models */
+    QList<QObject*> dataList = {
+        new LogDataObject("atype","amessage"),
+        new LogDataObject("btype","bmessage"),
+        new LogDataObject("ctype","cmessage") };
+    engine.rootContext()->setContextProperty("logModel", QVariant::fromValue(dataList));
     engine.load(QUrl(QStringLiteral("qrc:/main.qml")));
     if (engine.rootObjects().isEmpty())
         return -1;

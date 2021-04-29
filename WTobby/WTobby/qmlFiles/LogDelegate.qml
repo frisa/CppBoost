@@ -2,8 +2,8 @@
 import QtQml 2.15
 
 Rectangle {
-        required property string modelData
+        required property string mtype
         height: 25
         width: 100
-        Text { text: parent.modelData }
+        Text { text: parent.mtype }
     }

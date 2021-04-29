@@ -11,6 +11,5 @@
         <file>qmlFiles/TestDelegate.qml</file>
         <file>qmlFiles/TestModel.qml</file>
         <file>qmlFiles/LogDelegate.qml</file>
-        <file>qmlFiles/LogModel.qml</file>
     </qresource>
 </RCC>

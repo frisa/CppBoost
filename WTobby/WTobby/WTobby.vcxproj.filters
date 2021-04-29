@@ -20,6 +20,9 @@
     <Filter Include="QML">
       <UniqueIdentifier>{c381482a-a516-4d83-9db0-0228dd041194}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{a147ac6b-45ce-4633-a3b0-a73c7dfd863c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -31,14 +34,6 @@
     <None Include="main.qml">
       <Filter>Source Files</Filter>
     </None>
-    <ClCompile Include="Model.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Model.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="qmlFiles\TestModel.qml">
@@ -47,11 +42,13 @@
     <None Include="qmlFiles\TestDelegate.qml">
       <Filter>QML</Filter>
     </None>
-    <None Include="qmlFiles\LogModel.qml">
-      <Filter>QML</Filter>
-    </None>
     <None Include="qmlFiles\LogDelegate.qml">
       <Filter>QML</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="DataModel\LogDataObject.h">
+      <Filter>Model</Filter>
+    </QtMoc>
   </ItemGroup>
 </Project>

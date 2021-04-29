@@ -53,7 +53,7 @@ ApplicationWindow {
         id: systemView
         ListView{
             anchors.fill: parent
-            model: systemModel
+            model: logModel
             delegate: LogDelegate{}
         }
     }
